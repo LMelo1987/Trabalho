@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css.py" rel="stylesheet">
+	<title>Formulário para orçamento</title>
+	<meta charset="UTF 8">
+</head>
+<body>
+
+<body bgcolor="#F5F5DC">
+<h1>
+<p>
+<font size="8" face="Verdana"><p align="center">
+ORDEM DE SERVIÇO
+</font></p></h1>
+	<hr>
+<h2>
+<p align="center">
+	Cliente: <input type="text" name="lastname">
+	CPF/CNPJ: <input type="text" name="lastname">
+	Endereço: <input type="text" name="lastname">
+	Contato: <input tupe="text" name="lastname">
+</p>
+</h3>
+<hr>
+<form>
+<p align="center">
+<b>Frontal esta trincada?</b>
+<select>
+	<option></option>
+	<option>SIM</option>
+	<option>NÃO</option>
+	</select>
+	<b>Molhou?</b>
+	<select>
+	<option></option>
+	<option>SIM</option>
+	<option>NÃO</option>
+</select>
+<b>Está Ligando?</b>
+<select>
+	<option></option>
+	<option>SIM</option>
+	<option>NÃO</option>
+	</select>
+<hr></p>
+	<p align="center">
+	<h4>
+<p align="center">
+MODELO:
+<div class="rgb"><
+<select>
+	<option></option>
+	<option disabled=>APPLE</option>
+	<option>iPhone X</option>
+	<option>iPhone XR</option>
+	<option>iPhone XS</option>
+	<option>iPhone XS Max</option>
+	<option>iPhone 11</option>
+	<option>iPhone 11 Pro</option>
+	<option>iPhone 11 Pro Max</option>
+	<option disabled=>SAMSUNG</option>
+	<option>A20 ORGINAL</option>
+	<option>A20 INCELL</option>
+	<option>A30 ORIGINAL</option>
+	<option>A30 INCELL</option>
+	<option>S8 ORIGNIAL</option>
+	<option>S9 ORIGINAL</option>
+	<option>S10 ORIGINAL</option>
+</select>
+</div>
+<hr>
+</h4>
+<b>
+<p align="center">ONDE LOCALIZAR O NÚMERO DE SÉRIE:</p></b>
+<p align="center">
+<img src="iphone6.jpg"width="240"height="150"border="1">
+<img src="samsung1.png"width="240"height="150"border="1">
+<img src="huawei.png"width="240"height="150"border="1">
+</p>
+<p align="center"><b>
+Nº DE SÉRIE/MODELO</b><br><p align="center">
+<textarea> </textarea></p>
+	<hr><b>
+DESLOCAMENTO</b>
+<select>
+	<option></option>
+	<option>Maricá - Grátis</option>
+	<option>Niterói - R$ 20,00</option>
+	<option>São Gonçalo - R$ 20,00</option>
+	<option>Rio de Janeiro (Centro) - R$ 35,00</option>
+</select>
+<hr>
+<br>
+Forma de pagamento:
+<input type="checkbox" name="car">Débito
+
+<input type="checkbox" name="car">Crédito
+
+<input type="checkbox" name="car">Transferência
+<br>
+
+Anexar Comprovante:
+<input type="file" />
+ <hr><input type="submit" value="Enviar" /><hr>
+</select>
+</body></html>
